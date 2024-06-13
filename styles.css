@@ -1,0 +1,27 @@
+/*
+ * SPDX-FileCopyrightText: 2024 Krzysztof Hoszowski <k-hoszowski@tutamail.com>
+ *
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
+
+.node circle {
+    fill: #ccc;
+    stroke: #000;
+    stroke-width: 2px;
+    cursor: pointer;
+}
+
+.node text {
+    font: 12px Arial, sans-serif;
+    pointer-events: none;
+}
+
+.link {
+    fill: none;
+    stroke: #444;
+    stroke-width: 2px;
+}
+
+.highlight {
+    fill: lightblue !important;
+}
